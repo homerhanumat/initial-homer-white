@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Welcome to Trident Moon on Trident Moon</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Welcome to Trident Moon on Trident Moon</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Links and Cheatsheets</title>
+      <link>http://localhost:1313/articles/sheets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/sheets/</guid>
+      <description>Links to good teachers, useful practice videos, cheatsheets, and supplies.</description>
+    </item>
+    <item>
+      <title>Advent of Code 2022, Day 1:  A Solution Using Javascript</title>
+      <link>http://localhost:1313/articles/programming-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/programming-1/</guid>
+      <description>A sample programming article.</description>
+    </item>
+    <item>
+      <title>Advent of Code in the Browser!</title>
+      <link>http://localhost:1313/articles/programming-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/programming-2/</guid>
+      <description>Another sample programming article.</description>
+    </item>
+    <item>
+      <title>About Homer</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>Ashtanga, pranayama, Sanskrit, meditation, Georgetown Kentucky.  Homer White</description>
+    </item>
+  </channel>
+</rss>

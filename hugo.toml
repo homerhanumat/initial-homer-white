@@ -1,0 +1,99 @@
+baseURL = 'https://initial-homer-white.netlify.app'
+languageCode = 'en-us'
+title = 'Trident Moon'
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+[module]
+[[module.imports]]
+disable = false
+ignoreConfig = false
+ignoreImports = false
+path = 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+
+
+
+[pagination]
+  disableAliases = false
+  pagerSize = 6
+  path = 'page'
+
+
+googleAnalytics = ""
+enableRobotsTXT = true
+enableEmoji = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  favicon = "/images/trident_favicon.jpg"
+  site_logo = ""
+  headdescription = "Promoting and teaching Ashtanga Yoga in Eastern Kentucky.  Ashtanga, pranayama, Sanskrit, meditation, Georgetown Kentucky."
+  #facebook = "https://www.facebook.com/profile.php?id=61556987980351"
+  #instagram = "https://www.instagram.com/tridentmoonyoga"
+  youtube = ""
+  github = ""
+  gitlab = ""
+  linkedin = ""
+  mastodon = ""
+  slack = ""
+  stackoverflow = ""
+  rss = ""
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  featured_image = "/images/shiva_moon_landscape-2.jpg"
+  recent_posts_number = 2
+  cover_dimming_class = "bg-black-00"
+  site_header_text_background_color = "rgba(50, 50, 50, 0.7);"
+  page_header_text_background_color = "rgba(50, 50, 50, 0.7)"
+  custom_css = ["css/custom.css"]
+
+[params.ananke.social.follow]
+  new_window_icon = false
+  networks = [
+    "facebook",
+    "instagram"
+  ]
+
+[params.ananke.social.instagram]
+username = "tridentmoonyoga"
+
+[params.ananke.social.facebook]
+profilelink = "https://www.facebook.com/profile.php?id=61556987980351"
+
+[params.ananke.social.email]
+profilelink = "mailto:tridentmoonyoga@gmail.com"
+
+
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 1
+
+
+[[menu.main]]
+  identifier = "about"
+  name = "Teacher"
+  url = "/about/"
+  weight = 2 
+
+
+[[menu.main]]
+  identifier = "articles"
+  name = "Resources"
+  url = "/articles/"
+  weight = 3 
