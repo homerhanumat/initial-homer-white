@@ -1,4 +1,4 @@
-# Whne you deploy you may need to set the base URL correctly:
+# When you deploy you may need to set the base URL correctly:
 baseURL = 'https://initial-homer-white.netlify.app'
 languageCode = 'en-us'
 title = 'Trident Moon'
