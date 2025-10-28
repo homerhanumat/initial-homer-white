@@ -1,11 +1,15 @@
+# Whne you deploy you may need to set the base URL correctly:
 baseURL = 'https://initial-homer-white.netlify.app'
 languageCode = 'en-us'
 title = 'Trident Moon'
 
+# For faster rendering:
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
 
+# this key lets Hugo access the theme without you having to first set it up
+# locally as a go module:
 [module]
 [[module.imports]]
 disable = false
@@ -13,6 +17,8 @@ ignoreConfig = false
 ignoreImports = false
 path = 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
 
+# this key tells Hugo to render in-page html as-is,
+# so you don't have to use the rawhtml shortcode:
 [markup.goldmark.renderer]
   unsafe = true
 
@@ -38,10 +44,13 @@ enableEmoji = true
   priority = 0.5
   filename = "sitemap.xml"
 
+# The folloeing is provided in the theme documentation.
+# You can set the values as needed.
 [params]
   favicon = "/images/trident_favicon.jpg"
   site_logo = ""
   headdescription = "Promoting and teaching Ashtanga Yoga in Eastern Kentucky.  Ashtanga, pranayama, Sanskrit, meditation, Georgetown Kentucky."
+  # I will get my social links a different way, so comment out the next two lines"
   #facebook = "https://www.facebook.com/profile.php?id=61556987980351"
   #instagram = "https://www.instagram.com/tridentmoonyoga"
   youtube = ""
@@ -59,8 +68,10 @@ enableEmoji = true
   cover_dimming_class = "bg-black-00"
   site_header_text_background_color = "rgba(50, 50, 50, 0.7);"
   page_header_text_background_color = "rgba(50, 50, 50, 0.7)"
+  # Here's how you access your custom CSS rules:
   custom_css = ["css/custom.css"]
 
+# Here's how I will get my social links into the site:
 [params.ananke.social.follow]
   new_window_icon = false
   networks = [
@@ -78,6 +89,7 @@ profilelink = "https://www.facebook.com/profile.php?id=61556987980351"
 profilelink = "mailto:tridentmoonyoga@gmail.com"
 
 
+# How to set up main menu navigation:
 [[menu.main]]
   identifier = "home"
   name = "Home"
