@@ -2,7 +2,7 @@
 title: About Homer
 description: ""
 omit_header_text: false
-featured_image: images/shiva_moon_landscape-2.jpg
+featured_image: images/shiva_moon_landscape.jpg
 type: page
 summary:  "Ashtanga, pranayama, Sanskrit, meditation, Georgetown Kentucky.  Homer White"
 ---
