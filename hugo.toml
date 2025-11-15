@@ -44,9 +44,10 @@ enableEmoji = true
   priority = 0.5
   filename = "sitemap.xml"
 
-# The folloeing is provided in the theme documentation.
+# The following is provided in the theme documentation.
 # You can set the values as needed.
 [params]
+  show_recent_posts = false
   favicon = "/images/trident_favicon.jpg"
   site_logo = ""
   headdescription = "Promoting and teaching Ashtanga Yoga in Eastern Kentucky.  Ashtanga, pranayama, Sanskrit, meditation, Georgetown Kentucky."
@@ -70,6 +71,10 @@ enableEmoji = true
   page_header_text_background_color = "rgba(50, 50, 50, 0.7)"
   # Here's how you access your custom CSS rules:
   custom_css = ["css/custom.css"]
+    
+
+[params.ananke]
+  show_recent_posts = false # do not show recent posts on the homepage
 
 # Here's how I will get my social links into the site:
 [params.ananke.social.follow]
