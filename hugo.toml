@@ -114,3 +114,9 @@ profilelink = "mailto:tridentmoonyoga@gmail.com"
   name = "Resources"
   url = "/articles/"
   weight = 3 
+
+[[menu.main]]
+  identifier = "post"
+  name = "Blog"
+  url = "/post/"
+  weight = 4
